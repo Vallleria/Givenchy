@@ -1,0 +1,87 @@
+@import 'vendor/normalize.css';
+@import 'vendor/fonts/fonts.css';
+@import 'modules/variables/colors';
+@import 'modules/variables/media';
+
+/* Mixins */
+@import 'modules/mixins/reset-mp0';
+@import 'modules/mixins/reset-link';
+@import 'modules/mixins/reset-button';
+@import 'modules/mixins/reset-input';
+@import 'modules/mixins/reset-ul';
+@import 'modules/mixins/reset-img';
+
+/* Section center */
+@import 'modules/blocks/section-center/section-center';
+
+/* Btn */
+@import 'modules/blocks/btn/btn';
+
+/* Page */
+@import 'modules/blocks/page/page';
+
+/* Header */
+@import 'modules/blocks/header/header';
+@import 'modules/blocks/header/__burger-btn/header__burger-btn';
+
+/* Hero */
+@import 'modules/blocks/hero/hero';
+@import 'modules/blocks/hero/__title/hero__title';
+@import 'modules/blocks/hero/__link/hero__link';
+
+
+
+/* Section About*/
+@import 'modules/blocks/about/about.scss';
+@import 'modules/blocks/about/__title/about__title';
+@import 'modules/blocks/about/__text/about__text';
+
+/* Container*/
+@import 'modules/blocks/container/container';
+@import 'modules/blocks/container/_stretch/container_stretch';
+@import 'modules/blocks/container/_space/container_space';
+@import 'modules/blocks/container/__image/container__image';
+@import 'modules/blocks/container/__image-wrapper/container__image-wrapper';
+@import 'modules/blocks/container/__paragraph/container__paragraph';
+@import 'modules/blocks/container/__paragraph/_right/container__paragraph_right';
+
+@import 'modules/blocks/container/__text/container__text';
+@import 'modules/blocks/container/__text/_right/container_text_right';
+
+@import 'modules/blocks/container/_order/container_order_first';
+@import 'modules/blocks/container/_order/container_order_second';
+@import 'modules/blocks/container/_order/container_order_third';
+
+@import 'modules/blocks/container/__image/_order/container_image_order_first';
+@import 'modules/blocks/container/__image/_order/container_image_order_third';
+
+/* Section Looks*/
+@import 'modules/blocks/looks/looks';
+@import 'modules/blocks/looks/__image/looks__image';
+
+/* Footer*/
+@import 'modules/blocks/footer/footer';
+@import 'modules/blocks/checkbox/checkbox';
+@import 'modules/blocks/checkbox/__item/checkbox__item';
+@import 'modules/blocks/checkbox/__text/checkbox__text';
+@import 'modules/blocks/footer/__copyrigth/footer__copyright';
+@import 'modules/blocks/footer/__text/footer__text';
+
+@import 'modules/blocks/form/form';
+@import 'modules/blocks/form/__input/form__input';
+@import 'modules/blocks/form/__btn/form__btn';
+
+@import 'modules/blocks/footer/__text/footer__text';
+@import 'modules/blocks/footer/__copyrigth/footer__copyright';
+
+
+/* Burger-menu*/
+@import 'modules/blocks/burger-menu/burger-menu';
+@import 'modules/blocks/burger-menu/__btn-close/burger-menu__btn-close';
+@import 'modules/blocks/burger-menu/__link/burger-menu__link';
+@import 'modules/blocks/burger-menu/__item/burger-menu__item';
+@import 'modules/blocks/burger-menu/burger-menu__list/burger-menu__list';
+@import 'modules/blocks/burger-menu/_hide/burger-menu_hide';
+
+
+

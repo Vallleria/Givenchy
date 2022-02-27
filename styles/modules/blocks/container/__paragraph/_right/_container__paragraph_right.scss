@@ -1,0 +1,12 @@
+.container__paragraph_right {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+@media screen and (min-width: $tablet) {
+    .container__paragraph_right {
+        font-size: 20px;
+        line-height: 32px;
+    }
+}

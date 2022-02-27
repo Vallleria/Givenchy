@@ -1,0 +1,10 @@
+.btn{
+    @include reset-button;
+    color: $white-color;
+    background-color: $cod-gray-color;
+    min-height: 44px;
+    padding: 0 14px;
+    text-transform: uppercase;
+    
+
+}

@@ -1,0 +1,9 @@
+.footer__text {
+    color: $white-color;
+    margin-bottom: 40px;
+}
+@media screen and (min-width: $tablet ) {
+    .footer__text{
+        text-align: center;
+    }
+}

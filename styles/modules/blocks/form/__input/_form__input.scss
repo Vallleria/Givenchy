@@ -1,0 +1,12 @@
+.form__input {
+    background-color: $cod-gray-color;
+    height: 44px;
+    text-align: center;
+    color: $white-color;
+    @include reset-input;
+    border: 1px solid $white-color;
+}
+
+.form__input::placeholder {
+    text-align: center;
+}

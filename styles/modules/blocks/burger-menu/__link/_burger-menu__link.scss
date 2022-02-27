@@ -1,0 +1,15 @@
+.burger-menu__link {
+    @include reset-link;
+
+    width: 100%;
+    color: $white-color;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 60px;
+}

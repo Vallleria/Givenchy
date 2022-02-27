@@ -1,0 +1,14 @@
+.container__image {
+    @include reset-img;
+
+    width: 280px;
+    height: 348px;
+    margin-bottom: 20px;
+}
+
+@media screen and (min-width: $tablet) {
+    .container__image {
+        position: absolute; 
+        height: auto;
+    }
+}
