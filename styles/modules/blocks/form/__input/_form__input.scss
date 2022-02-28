@@ -1,4 +1,6 @@
 .form__input {
+    box-sizing: border-box;
+    width: 100%;
     background-color: $cod-gray-color;
     height: 44px;
     text-align: center;
@@ -9,4 +11,11 @@
 
 .form__input::placeholder {
     text-align: center;
+}
+
+@media screen and (min-width: $tablet) {
+    .form__input {
+        border-right: 0;
+        width: 77.8%;
+    }
 }

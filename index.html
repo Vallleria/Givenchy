@@ -22,7 +22,7 @@
            <div class="header__bar">
                <button class="header__burger-btn" type="button">Menu</button>
            </div>
-           <div class="hero section-center">
+           <div class="hero">
                <h1 class="hero__title">GIVENCHY
                 SPRING SUMMER 2021
                 BY MATTHEW M. WILLIAMS
@@ -37,14 +37,14 @@
                <p class="about__text">The Spring-Summer ‘21 collection explores Givenchy in the form of a stream of consciousness for Williams and is a ‘sampler’ of what is to come.</p>
             </div>
              <div class="container container_order_first">
-                <img class="container__image container_image_order_first" src="./images/fashion-woman.jpg" alt="woman">
+                <img class="container__image container__image_order_first" src="./images/fashion-woman.jpg" alt="woman">
                  <div class="container__text ">
                     <p class="container__paragraph">“To me, fashion expresses a point of view where formality and informality, construction and comfort co-exist. My ethos is about the luxury of infusing clothes with your own personality, not being worn by them,”</p>
                     <p class="container__paragraph">Matthew M. Williams.</p>
                 </div>
              </div>
              <div class="container container_order_second">
-                <img class="container__image" src="./images/fashion-man2.jpg" alt="woman">
+                <img class="container__image container__image_order_second" src="./images/fashion-man2.jpg" alt="woman">
                 <div class="container__text container__text_right">
                     <p class="container__paragraph container__paragraph_right">Matthew M. Williams reveals his vision 
                         with help from an all-star lineup of likeminded artists. The Creative Director called on close friends 
@@ -55,7 +55,7 @@
                 </div>
             </div>
             <div class="container container_order_third">
-                <img class="container__image container_image_order_third" src="./images/fashion-woman2.jpg" alt="woman">
+                <img class="container__image container__image_order_third" src="./images/fashion-woman2.jpg" alt="woman">
                 <div class="container__text">
                     <p class="container__paragraph">“In each of these portraits, a strong character wears a
                         look that reflects who they are: they’re the ones
@@ -64,15 +64,16 @@
                 </div>
             </div>
             </section>
+            
             <section class="looks section-center">
-                <img  class="looks__image" src="./images/item1.jpg" alt="fashion look">
+                <!-- <img  class="looks__image" src="./images/item1.jpg" alt="fashion look">
                 <img class="looks__image"  src="./images/item2.jpg" alt="fashion look">
                 <img class="looks__image"  src="./images/item3.jpg" alt="fashion lookx">
                 <img class="looks__image"  src="./images/item4.jpg" alt="fashion look">
                 <img class="looks__image"  src="./images/item5.jpg" alt="fashion look">
                 <img class="looks__image"  src="./images/item6.jpg" alt="fashion look">
                 <img class="looks__image"  src="./images/item7.jpg" alt="fashion look">
-                <img class="looks__image"  src="./images/item8.jpg" alt="fashion lookx">
+                <img class="looks__image"  src="./images/item8.jpg" alt="fashion lookx"> -->
             </section>
        </main>
        <footer class="footer">
@@ -80,8 +81,10 @@
                 the first to know 
                about new collection’s drop date and news</p>
                <form class="form" action="#" id="subscribe">
-                   <input class="form__input" type="email" placeholder="Eneter your email  here">
-                    <button class="form__btn btn">submit</button>
+                   <div class="form__group">
+                        <input class="form__input" type="email" placeholder="Eneter your email  here">
+                        <button class="form__btn btn">submit</button>
+                    </div>
         <label class="checkbox">
             <input class="checkbox__item" type="checkbox" checked>
             <span class="checkbox__text">I consent to the processing of my data by GIVENCHY in accordance with the conditions set forth in the Privacy Policy</span>
@@ -90,6 +93,11 @@
         <p class="footer__copyright">&copy;2021, Givenchy. Some rights reserved</p>
        </footer>
    </div>
+
+   <template class="image-template">
+        <img  class="looks__image" src="#" alt="">
+   </template>
    <script src="./js/burger.js"></script>
+   <script src="js/looks.js"></script>
 </body>
 </html>

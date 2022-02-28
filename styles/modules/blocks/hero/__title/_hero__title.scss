@@ -13,3 +13,9 @@
         line-height: 40px;
     }
 }
+@media screen and (min-width: $desktop) {
+    .hero__title {
+        font-size: 48px;
+        line-height: 64px;
+}
+}

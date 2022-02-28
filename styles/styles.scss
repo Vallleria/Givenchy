@@ -52,8 +52,10 @@
 @import 'modules/blocks/container/_order/container_order_second';
 @import 'modules/blocks/container/_order/container_order_third';
 
-@import 'modules/blocks/container/__image/_order/container_image_order_first';
-@import 'modules/blocks/container/__image/_order/container_image_order_third';
+@import 'modules/blocks/container/__image/_order/container__image_order_first';
+@import 'modules/blocks/container/__image/_order/container__image_order_third';
+@import 'modules/blocks/container/__image/_order/container__image_order_second';
+
 
 /* Section Looks*/
 @import 'modules/blocks/looks/looks';
@@ -67,7 +69,9 @@
 @import 'modules/blocks/footer/__copyrigth/footer__copyright';
 @import 'modules/blocks/footer/__text/footer__text';
 
+/* Form */
 @import 'modules/blocks/form/form';
+@import 'modules/blocks/form/__group/form__group';
 @import 'modules/blocks/form/__input/form__input';
 @import 'modules/blocks/form/__btn/form__btn';
 

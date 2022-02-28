@@ -9,3 +9,9 @@
         grid-template-columns: repeat(3, 1fr)
     }
 }
+
+@media screen and (min-width: $desktop) {
+    .looks {
+        grid-template-columns: repeat(4, 1fr)
+    }
+}

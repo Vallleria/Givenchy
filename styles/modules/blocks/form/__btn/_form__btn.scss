@@ -9,3 +9,9 @@
     margin-bottom: 20px;
 
 }
+
+@media screen and (min-width: $tablet) {
+    .form__btn {
+        width: 22.2%;
+    }
+}
