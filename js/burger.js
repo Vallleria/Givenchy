@@ -1,10 +1,10 @@
 const headerBurgerBtn = document.querySelector('.header__burger-btn')
-const burgerMenu = document.querySelector('.burger-menu')
+const navbar = document.querySelector('.navbar')
 const burgerMenuBtnClose = document.querySelector('.burger-menu__btn-close')
 
 
 function toggleBurgerMenu(){
-    burgerMenu.classList.toggle('burger-menu_hide');
+    navbar.classList.toggle('navbar_show');
 }
 
 burgerMenuBtnClose.addEventListener('click', toggleBurgerMenu);

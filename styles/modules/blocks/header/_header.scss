@@ -1,14 +1,9 @@
 .header {
     position: relative;
     background-color: $cararra-color;
-    background-image: url(../../../../images/fashion-man.jpg);
     min-height: 426px;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
-
+    
     display: flex;
-    flex-direction: column;
     justify-content: center;
     margin-bottom: 40px;
 }
@@ -17,5 +12,11 @@
     .header {
         background-position: 20% center;
         min-height: 646px;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .header{
+        min-height: 900px;
     }
 }

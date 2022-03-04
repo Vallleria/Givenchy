@@ -2,5 +2,15 @@
     position: relative;
     padding: 70px 0;
     background-color: $cod-gray-color;
-
+    
 }
+@media screen and (min-width: 600px) {
+    .burger-menu {
+        width: 480px;
+        height: 810px;
+        
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+} 

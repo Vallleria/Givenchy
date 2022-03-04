@@ -22,6 +22,9 @@
 
 /* Header */
 @import 'modules/blocks/header/header';
+@import 'modules/blocks/header/header__container/header__container';
+@import 'modules/blocks/navbar/navbar';
+@import 'modules/blocks/navbar/_show/navbar_show';
 @import 'modules/blocks/header/__burger-btn/header__burger-btn';
 
 /* Hero */
@@ -63,6 +66,7 @@
 
 /* Footer*/
 @import 'modules/blocks/footer/footer';
+@import 'modules/blocks/footer/__container/footer__container';
 @import 'modules/blocks/checkbox/checkbox';
 @import 'modules/blocks/checkbox/__item/checkbox__item';
 @import 'modules/blocks/checkbox/__text/checkbox__text';
@@ -88,4 +92,6 @@
 @import 'modules/blocks/burger-menu/_hide/burger-menu_hide';
 
 
-
+/* Animation */
+@import 'modules/animation/fade-in/fade-in';
+@import 'modules/animation/fade-out/fade-out';

@@ -73,12 +73,58 @@ function addImages(count) {
     }
 }
 
-
-
-if (window.innerWidth > 320 && window.innerWidth < 768) {  // если на мобильном
-    addImages(8)
-} else if (window.innerWidth >= 768 && window.innerWidth < 1090) { // если на планшете
-    addImages(6)
-} else { // на десктопе
-    addImages(8)
+function getNewImageRandomIndex() {
+    // берем случайны индекс картинки в looks
+    const randomIndex = Math.floor(Math.random() * looks.children.length);
+    // вернуть картинку из looks
+    return randomIndex;
 }
+
+function swapRandomImage(){
+
+    const newImageIndex = getNewImageRandomIndex();
+    const newImage = looks.children[newImageIndex];
+
+    // заменить картинку в looks на newImage в случайном месте
+    const oldImageIndex = getNewImageRandomIndex();
+    const oldImage = looks.children[oldImageIndex];
+
+    if (newImageIndex == oldImageIndex) {
+        swapRandomImage();
+        return;
+    }
+
+    oldImage.onanimationend = (e) => {
+        if (e.srcElement.classList.contains('fade-out')) {
+            
+            oldImage.classList.remove('fade-out');
+            newImage.classList.remove('fade-out');
+            
+            const replacedImage = looks.replaceChild(newImage, oldImage);
+            newImage.classList.add('fade-in');
+            oldImage.classList.add('fade-in');
+
+            looks.insertBefore(replacedImage, looks.children[newImageIndex]);
+        }
+      };
+    newImage.classList.add('fade-out');  
+    oldImage.classList.add('fade-out');
+}
+   
+function addImagesForScreenSizes() {
+    looks.innerHTML = '';
+    if (window.innerWidth > 320 && window.innerWidth < 768) {  // если на мобильном
+        addImages(8)
+    } else if (window.innerWidth >= 768 && window.innerWidth < 1090) { // если на планшете
+        addImages(6)
+    } else { // на десктопе
+        addImages(8)
+    }
+}
+
+addImagesForScreenSizes();
+
+setInterval(swapRandomImage, 3000);
+
+window.addEventListener('resize', addImagesForScreenSizes)
+
