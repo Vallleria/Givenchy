@@ -1,0 +1,10 @@
+.form__group {
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (min-width: $tablet) {
+    .form__group {
+        flex-direction: row;
+    }
+}

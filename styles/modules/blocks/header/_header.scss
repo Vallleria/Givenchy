@@ -1,0 +1,22 @@
+.header {
+    position: relative;
+    background-color: $cararra-color;
+    min-height: 426px;
+    
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: $tablet) {
+    .header {
+        background-position: 20% center;
+        min-height: 646px;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .header{
+        min-height: 900px;
+    }
+}

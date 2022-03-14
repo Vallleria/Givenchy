@@ -1,0 +1,4 @@
+@mixin reset-ul {
+    @include reset-mp0;
+    list-style: none;
+}

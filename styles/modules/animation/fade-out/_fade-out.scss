@@ -1,0 +1,8 @@
+.fade-out {
+    animation: fade-out-opacity 0.3s;
+}
+
+@keyframes fade-out-opacity {
+    from { opacity: 1 }
+    to { opacity: 0 }
+  }

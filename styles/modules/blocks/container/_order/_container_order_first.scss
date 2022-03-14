@@ -1,0 +1,13 @@
+
+@media screen and (min-width: $tablet) {
+    .container_order_first {
+        min-height: 552px;
+    }    
+}
+
+@media screen and (min-width: $desktop) {
+    .container_order_first {
+        min-height: 875px;
+    }
+}
+

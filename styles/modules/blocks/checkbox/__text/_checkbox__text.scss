@@ -1,0 +1,25 @@
+.checkbox__text {
+    position: relative;
+    display: flex;
+    align-items: center;
+	font-weight: normal;
+    color: $white-color;
+    font-size: 14px;
+    line-height: 20px;
+    padding-left: 32px;
+
+    &::before {
+        content: "";
+        position: absolute;
+        display: inline-block;
+        left: 0;
+        top: 0;
+        width: 20px;
+        height: 20px;
+        border: 2px solid $white-color;
+        background-repeat: no-repeat;
+        background-position: center;
+        cursor: pointer;
+    }
+}
+

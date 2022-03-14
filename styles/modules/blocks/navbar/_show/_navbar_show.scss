@@ -1,0 +1,11 @@
+.navbar_show {
+    display: block;
+}
+
+@media screen and (min-width: 600px) {
+    .navbar_show {
+        z-index: 9999;
+        visibility: visible;
+        opacity: 1;
+    }  
+}

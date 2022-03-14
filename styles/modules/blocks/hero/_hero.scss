@@ -1,0 +1,16 @@
+.hero{
+    padding: 0 20px;
+}
+
+@media screen and (min-width: $tablet) {
+    .hero {
+        width: 440px;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .hero{
+        width: 680px;
+        padding-right: 40px;
+    }
+}

@@ -1,0 +1,12 @@
+@media screen and (min-width: $tablet) {
+    .container__image_order_first {
+
+        left: 30%;
+        width: 364px;
+    }
+}
+@media screen and (min-width: $desktop) {
+    .container__image_order_first {
+        width: 700px;
+    }
+}

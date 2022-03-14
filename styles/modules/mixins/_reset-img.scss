@@ -1,0 +1,5 @@
+@mixin reset-img {
+    display: inline-block;
+    // запрет на выпадение картинки за пределы родительского блока
+    max-width: 100%;
+}
