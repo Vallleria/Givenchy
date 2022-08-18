@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Givenchy</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+
+<body>
+    <div class="page">
+        <nav class="navbar">
+            <div class="burger-menu">
+                <button class="burger-menu__btn-close" aria-label="close menu burger"></button>
+                <ul class="burger-menu__list">
+                    <li class="burger-menu__item"><a href="#" class="burger-menu__link">About</a></li>
+                    <li class="burger-menu__item"><a href="#" class="burger-menu__link">Looks</a></li>
+                    <li class="burger-menu__item"><a href="#" class="burger-menu__link">Subscribe</a></li>
+                </ul>
+            </div>
+        </nav>
+        <header class="header">
+            <div class="header__container">
+                <button class="header__burger-btn" type="button">Menu</button>
+                <div class="hero">
+                    <h1 class="hero__title">GIVENCHY
+                        SPRING SUMMER 2021
+                        BY MATTHEW M. WILLIAMS
+                    </h1>
+                    <a href="#subscribe" class="hero__link btn">Subscribe to collection’s news</a>
+                </div>
+            </div>
+        </header>
+        <main class="main">
+            <section class="about section-center">
+                <div class="container container_stretch">
+                    <h2 class="about__title">ABOUT</h2>
+                    <p class="about__text">The Spring-Summer ‘21 collection explores Givenchy in the form of a stream of
+                        consciousness for Williams and is a ‘sampler’ of what is to come.</p>
+                </div>
+                <div class="container container_order_first">
+                    <img class="container__image container__image_order_first" src="./images/fashion-woman.jpg"
+                        alt="woman">
+                    <div class="container__text ">
+                        <p class="container__paragraph">“To me, fashion expresses a point of view where formality and
+                            informality, construction and comfort co-exist. My ethos is about the luxury of infusing
+                            clothes with your own personality, not being worn by them,”</p>
+                        <p class="container__paragraph">Matthew M. Williams.</p>
+                    </div>
+                </div>
+                <div class="container container_order_second">
+                    <img class="container__image container__image_order_second" src="./images/fashion-man2.jpg"
+                        alt="woman">
+                    <div class="container__text container__text_right">
+                        <p class="container__paragraph container__paragraph_right">Matthew M. Williams reveals his
+                            vision
+                            with help from an all-star lineup of likeminded artists. The Creative Director called on
+                            close friends
+                            in his tight-knit community of artists. Kendall Jenner, Bella Hadid, Playboi Carti and the
+                            supermodels
+                            Anok Yai and Liam Powers were each invited to put their own stamp on key pieces,
+                            the better to highlight the importance of cultivating a powerful personal style.
+                        </p>
+                    </div>
+                </div>
+                <div class="container container_order_third">
+                    <img class="container__image container__image_order_third" src="./images/fashion-woman2.jpg"
+                        alt="woman">
+                    <div class="container__text">
+                        <p class="container__paragraph">“In each of these portraits, a strong character wears a
+                            look that reflects who they are: they’re the ones
+                            who bring the clothes to life.”</p>
+                        <p class="container__paragraph">Matthew M. Williams.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="looks section-center">
+
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer__container">
+                <p class="footer__text">Subscribe to the newsletterand be
+                    the first to know
+                    about new collection’s drop date and news</p>
+                <form class="form" action="#" id="subscribe">
+                    <div class="form__group">
+                        <input class="form__input" type="email" placeholder="Eneter your email  here">
+                        <button class="form__btn btn">submit</button>
+                    </div>
+                    <label class="checkbox">
+                        <input class="checkbox__item" type="checkbox" checked>
+                        <span class="checkbox__text">I consent to the processing of my data by GIVENCHY in accordance
+                            with
+                            the conditions set forth in the Privacy Policy</span>
+                    </label>
+                </form>
+                <p class="footer__copyright">&copy;2021, Givenchy. Some rights reserved</p>
+            </div>
+        </footer>
+    </div>
+
+    <template class="image-template">
+        <img class="looks__image" src="#" alt="">
+    </template>
+
+    <script src="./js/burger.js"></script>
+    <script src="js/looks.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+ .section-center {
+     /*
+        20px * 100vw / 320px
+     */
+    padding: 0 20px;
+ }
+
+ @media screen and (min-width: $desktop) {
+     .section-center {
+         max-width: 1440px;
+         margin: 0 auto;
+
+     }
+ }

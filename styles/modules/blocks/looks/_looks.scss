@@ -1,0 +1,17 @@
+.looks {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 40px;
+}
+
+@media screen and (min-width: $tablet) {
+    .looks {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .looks {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}

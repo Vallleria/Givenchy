@@ -1,0 +1,26 @@
+.form__input {
+    box-sizing: border-box;
+    width: 100%;
+    background-color: $cod-gray-color;
+    height: 44px;
+    text-align: center;
+    color: $white-color;
+    @include reset-input;
+    border: 1px solid $white-color;
+
+    // &:hover {
+    //     color: $cod-gray-color ;
+    //     background-color: $white-color;
+    // }
+}
+
+.form__input::placeholder {
+    text-align: center;
+}
+
+@media screen and (min-width: $tablet) {
+    .form__input {
+        border-right: 0;
+        width: 77.8%;
+    }
+}

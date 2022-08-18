@@ -1,0 +1,28 @@
+.looks__image {
+    @include reset-img;
+
+}
+
+@media screen and (min-width: $desktop) {
+    .looks__image {
+        width: 360px;
+    }
+}
+
+@keyframes fadeInOpacity {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeOutOpacity {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}

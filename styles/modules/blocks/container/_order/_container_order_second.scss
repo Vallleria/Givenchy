@@ -1,0 +1,11 @@
+@media screen and (min-width: $tablet) {
+    .container_order_second {
+        min-height: 384px;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .container_order_second  {
+        min-height: 618px;
+    }
+}

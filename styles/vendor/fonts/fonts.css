@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/Golos-Text_Regular.woff2) format('woff2'),
+      url(../fonts/Golos-Text_Regular.woff) format('woff');
+  }
+
+  @font-face {
+    font-family: 'Golos';
+    font-style: normal;
+    font-weight: medium;
+    src: url(../fonts/Golos-Text_Medium.woff2) format('woff2'),
+      url(../fonts/Golos-Text_Medium.woff) format('woff');
+  }
+
+  @font-face {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: normal;
+    src: url(../fonts/prompt-regular-webfont.woff2) format('woff2'),
+      url(../fonts/prompt-reqular-webfont.woff) format('woff');
+  }
+  
+  @font-face {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: medium;
+    src: url(../fonts/prompt-medium-webfont.woff2) format('woff2'),
+      url(../fonts/prompt-medium-webfont.woff) format('woff');
+  } 

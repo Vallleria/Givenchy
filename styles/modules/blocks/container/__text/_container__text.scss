@@ -1,0 +1,16 @@
+.container__text {
+    flex-direction: column;
+    z-index: 2;
+}
+
+@media screen and (min-width: $tablet) {
+    .container__text {
+        position: absolute; 
+        width: 50%;
+        
+        font-weight: 500;
+        font-size: 32px;
+        line-height: 44px;
+        letter-spacing: 0.02em;
+    }
+}

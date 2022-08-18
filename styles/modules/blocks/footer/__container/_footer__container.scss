@@ -1,0 +1,11 @@
+@media screen and (min-width: $tablet) {
+   .footer__container {
+       max-width: 486px;
+       margin: 0 auto;
+   }
+}
+@media screen and (min-width: $desktop) {
+    .footer__container {
+        max-width: 700px;
+    }
+}

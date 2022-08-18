@@ -1,0 +1,31 @@
+.header__container {
+    position: relative;
+    background-image: url(../images/fashion-man.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+@media screen and (min-width: 330px) {
+    .header__container {
+        background-size: contain;
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .header__container {
+        width: 100%;
+        
+        align-items: flex-end;
+        background-position-x: left;
+    }
+}
+
+@media screen and (min-width: $desktop) {
+    .header__container {
+        width: 1440px;
+    }
+}
